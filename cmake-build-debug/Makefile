@@ -168,6 +168,33 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/main.c.s
 .PHONY : main.c.s
 
+whoru.obj: whoru.c.obj
+
+.PHONY : whoru.obj
+
+# target to build an object file
+whoru.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/whoru.c.obj
+.PHONY : whoru.c.obj
+
+whoru.i: whoru.c.i
+
+.PHONY : whoru.i
+
+# target to preprocess a source file
+whoru.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/whoru.c.i
+.PHONY : whoru.c.i
+
+whoru.s: whoru.c.s
+
+.PHONY : whoru.s
+
+# target to generate assembly for a file
+whoru.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/whoru.c.s
+.PHONY : whoru.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -180,6 +207,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... whoru.obj
+	@echo ... whoru.i
+	@echo ... whoru.s
 .PHONY : help
 
 
