@@ -74,10 +74,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/User/CLionProjects/C/HEAD.H">
+			<Option target="C"/>
+		</Unit>
 		<Unit filename="C:/Users/User/CLionProjects/C/main.c">
 			<Option target="C"/>
 		</Unit>
-		<Unit filename="C:/Users/User/CLionProjects/C/whoru.c">
+		<Unit filename="C:/Users/User/CLionProjects/C/random-int-generator/Random_integer.c">
 			<Option target="C"/>
 		</Unit>
 		<Unit filename="C:/Users/User/CLionProjects/C/CMakeLists.txt">
