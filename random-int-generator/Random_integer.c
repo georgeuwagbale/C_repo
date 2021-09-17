@@ -14,6 +14,7 @@
 int rand_int(int range);
 void rand_int_seed(void);
 
+/* Uncomment main() function before compiling this programme
 int main(){
     int range;
     char s[10];
@@ -24,6 +25,7 @@ int main(){
     printf("%i", rand_int(range));
     return 0;
 }
+*/
 
 int rand_int(int range){
     int r;
