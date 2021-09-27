@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "C:/Users/User/CLionProjects/C/Pool.c" "C:/Users/User/CLionProjects/C/cmake-build-debug/CMakeFiles/C.dir/Pool.c.obj"
   "C:/Users/User/CLionProjects/C/main.c" "C:/Users/User/CLionProjects/C/cmake-build-debug/CMakeFiles/C.dir/main.c.obj"
   "C:/Users/User/CLionProjects/C/random-int-generator/Random_integer.c" "C:/Users/User/CLionProjects/C/cmake-build-debug/CMakeFiles/C.dir/random-int-generator/Random_integer.c.obj"
   )

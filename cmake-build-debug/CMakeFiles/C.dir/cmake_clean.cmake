@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "C.exe"
   "C.exe.manifest"
   "C.pdb"
+  "CMakeFiles/C.dir/Pool.c.obj"
   "CMakeFiles/C.dir/main.c.obj"
   "CMakeFiles/C.dir/random-int-generator/Random_integer.c.obj"
   "libC.dll.a"

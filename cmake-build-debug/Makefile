@@ -128,6 +128,30 @@ C/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/build
 .PHONY : C/fast
 
+Pool.obj: Pool.c.obj
+.PHONY : Pool.obj
+
+# target to build an object file
+Pool.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/Pool.c.obj
+.PHONY : Pool.c.obj
+
+Pool.i: Pool.c.i
+.PHONY : Pool.i
+
+# target to preprocess a source file
+Pool.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/Pool.c.i
+.PHONY : Pool.c.i
+
+Pool.s: Pool.c.s
+.PHONY : Pool.s
+
+# target to generate assembly for a file
+Pool.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/Pool.c.s
+.PHONY : Pool.c.s
+
 main.obj: main.c.obj
 .PHONY : main.obj
 
@@ -185,6 +209,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... C
+	@echo ... Pool.obj
+	@echo ... Pool.i
+	@echo ... Pool.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -77,6 +77,9 @@
 		<Unit filename="C:/Users/User/CLionProjects/C/HEAD.H">
 			<Option target="C"/>
 		</Unit>
+		<Unit filename="C:/Users/User/CLionProjects/C/Pool.c">
+			<Option target="C"/>
+		</Unit>
 		<Unit filename="C:/Users/User/CLionProjects/C/main.c">
 			<Option target="C"/>
 		</Unit>
