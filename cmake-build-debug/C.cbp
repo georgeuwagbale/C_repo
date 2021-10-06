@@ -80,7 +80,13 @@
 		<Unit filename="C:/Users/User/CLionProjects/C/Pool.c">
 			<Option target="C"/>
 		</Unit>
+		<Unit filename="C:/Users/User/CLionProjects/C/fareef.c">
+			<Option target="C"/>
+		</Unit>
 		<Unit filename="C:/Users/User/CLionProjects/C/main.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="C:/Users/User/CLionProjects/C/random-int-generator/Game.c">
 			<Option target="C"/>
 		</Unit>
 		<Unit filename="C:/Users/User/CLionProjects/C/random-int-generator/Random_integer.c">

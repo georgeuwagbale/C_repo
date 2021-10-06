@@ -6,5 +6,8 @@ CMakeFiles/C.dir/Pool.c.obj: \
  ../random-int-generator/Random_integer.c
 CMakeFiles/C.dir/main.c.obj: \
  ../main.c
+CMakeFiles/C.dir/random-int-generator/Game.c.obj: \
+ ../random-int-generator/Game.c \
+ ../random-int-generator/Random_integer.c
 CMakeFiles/C.dir/random-int-generator/Random_integer.c.obj: \
  ../random-int-generator/Random_integer.c

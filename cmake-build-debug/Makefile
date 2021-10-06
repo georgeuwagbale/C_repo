@@ -47,10 +47,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = C:\Users\User\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5284.51\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = C:\Users\User\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5284.51\bin\cmake\win\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = C:\Users\User\CLionProjects\C\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	C:\Users\User\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5284.51\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,7 +77,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	C:\Users\User\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5284.51\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -152,6 +152,30 @@ Pool.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/Pool.c.s
 .PHONY : Pool.c.s
 
+fareef.obj: fareef.c.obj
+.PHONY : fareef.obj
+
+# target to build an object file
+fareef.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/fareef.c.obj
+.PHONY : fareef.c.obj
+
+fareef.i: fareef.c.i
+.PHONY : fareef.i
+
+# target to preprocess a source file
+fareef.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/fareef.c.i
+.PHONY : fareef.c.i
+
+fareef.s: fareef.c.s
+.PHONY : fareef.s
+
+# target to generate assembly for a file
+fareef.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/fareef.c.s
+.PHONY : fareef.c.s
+
 main.obj: main.c.obj
 .PHONY : main.obj
 
@@ -175,6 +199,30 @@ main.s: main.c.s
 main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/main.c.s
 .PHONY : main.c.s
+
+random-int-generator/Game.obj: random-int-generator/Game.c.obj
+.PHONY : random-int-generator/Game.obj
+
+# target to build an object file
+random-int-generator/Game.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/random-int-generator/Game.c.obj
+.PHONY : random-int-generator/Game.c.obj
+
+random-int-generator/Game.i: random-int-generator/Game.c.i
+.PHONY : random-int-generator/Game.i
+
+# target to preprocess a source file
+random-int-generator/Game.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/random-int-generator/Game.c.i
+.PHONY : random-int-generator/Game.c.i
+
+random-int-generator/Game.s: random-int-generator/Game.c.s
+.PHONY : random-int-generator/Game.s
+
+# target to generate assembly for a file
+random-int-generator/Game.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/random-int-generator/Game.c.s
+.PHONY : random-int-generator/Game.c.s
 
 random-int-generator/Random_integer.obj: random-int-generator/Random_integer.c.obj
 .PHONY : random-int-generator/Random_integer.obj
@@ -212,9 +260,15 @@ help:
 	@echo ... Pool.obj
 	@echo ... Pool.i
 	@echo ... Pool.s
+	@echo ... fareef.obj
+	@echo ... fareef.i
+	@echo ... fareef.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... random-int-generator/Game.obj
+	@echo ... random-int-generator/Game.i
+	@echo ... random-int-generator/Game.s
 	@echo ... random-int-generator/Random_integer.obj
 	@echo ... random-int-generator/Random_integer.i
 	@echo ... random-int-generator/Random_integer.s
